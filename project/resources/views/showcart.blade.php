@@ -4,7 +4,7 @@
 <head>
 
 	
-    <title>Food Funday Restaurant</title>
+    <title>Mars Eatery</title>
 
     <body>
                   <!--   <li class="fa fa-shopping-cart" style="font-size:35px;color:#ff5500">
@@ -125,7 +125,12 @@ table {
         <input class="btn btn-success" type="submit" value="Pay in cash on delivery">
 
  		 <button id="close" type="button" class="btn btn-danger">Print Receipt</button>
+
+
+ 		 <button id="close" type="button" class="btn btn-danger">Make bkash payment</button>
     </div>
+
+
 
 </div>
 </form>

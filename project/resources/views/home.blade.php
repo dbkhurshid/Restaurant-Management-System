@@ -78,8 +78,10 @@
 
                     <li class="fa fa-shopping-cart" style="font-size:35px;color:#ff5500">
                         
+                         @auth
+                         
                          <a href="{{url('/showcart',Auth::user()->id)}}">
-                        @auth
+                       
 
                     
                     <i class style="font-size:20px;color:#ff5500">[{{$count}}]</i>
@@ -163,11 +165,10 @@
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title"> About Us </h2>
                         <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
+                        <p> Mars Eatery is a dream come true! It is small start up business which is run mainly out of passion. We handpick fresh vegetables straight from our garden to incorporate them in our dishes. 
+                            <br>The goal is to provide premium ingredients to meet our customer satisfaction. Moreover, we use recyclable containers to eliminate the amount of waste. This is what defines Mars Eatery.
+                             <br>In addition, we cater to all age groups. Delivering professional customer service, while maintaining top notch hygiene is what we aim for.</p>
 
-                        <p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
-
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
                     </div>
                 </div>
                 <!-- end col -->
@@ -192,7 +193,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title color-white text-center"> Today's Special </h2>
-                        <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
+                        <h5 class="title-caption text-center"> See what special mouth-watering dishes are our chefs preparing for you today! </h5>
                     </div>
                     <div class="special-box">
                         <div id="owl-demo">
@@ -202,7 +203,7 @@
                                         <div class="headline">
                                             SALMON STEAK
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Salmon filled chargrilled and marinated in our special recipe of species.</div>
                                         </div>
                                     </div>
                                 </a>
@@ -216,7 +217,7 @@
                                         <div class="headline">
                                             ITALIAN PIZZA
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Thin layer of bread dough topped with spiced tomato sauce and cheese, garnished with anchovies, sausage slices, mushrooms, etc.</div>
                                         </div>
                                     </div>
                                 </a>
@@ -230,7 +231,7 @@
                                         <div class="headline">
                                             VEG. ROLL
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Filled with fresh vegetables and cooked to perfection.</div>
                                         </div>
                                     </div>
                                 </a>
@@ -244,7 +245,7 @@
                                         <div class="headline">
                                             SALMON STEAK
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Salmon filled chargrilled and marinated in our special recipe of species.</div>
                                         </div>
                                     </div>
                                 </a>
@@ -258,7 +259,7 @@
                                         <div class="headline">
                                             VEG. ROLL
                                             <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                            <div class="dit-line">Filled with fresh vegetables and cooked to perfection.</div>
                                         </div>
                                     </div>
                                 </a>
@@ -286,9 +287,9 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title text-center">
-						Our Team 	
+						Our Founders 	
 					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                        <p class="title-caption text-center">A brief overview of the leaders of this restaurant. </p>
                     </div>
                     <div class="team-box">
 
@@ -300,7 +301,7 @@
                                     </div>
                                     <div class="text-col">
                                         <h3>John Doggett</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <p>Hailing from North America, John Doggett is a chef himself and one of the members of the founding committee. Doggett promises to bring many more western flavours to the bengali people.</p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -317,7 +318,7 @@
                                     </div>
                                     <div class="text-col">
                                         <h3>Jeffrey Spender</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <p>Spender was born in Sydney, Australia. But his love for desi food made him turn into an enterpreneur here in Bangladesh. He believes quality food can do wonders to human mind and body.</p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -333,8 +334,8 @@
                                         <a href="#"><img src="images/staff-03.jpg" alt=""></a>
                                     </div>
                                     <div class="text-col">
-                                        <h3>Monica Reyes</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <h3>Marua Jahan Chowdhury</h3>
+                                        <p>The only local from the founding team is Marua Jahan Chowdhury. She teamed up with Doggett and Spender and made it possible to build a restaurant people would cherish.</p>
                                         <ul class="team-social">
                                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -367,7 +368,7 @@
                         <h2 class="block-title text-center">
 						Our Gallery	
 					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available </p>
+                        <p class="title-caption text-center">Some of our luscious meals people crave for.</p>
                     </div>
                     <div class="gal-container clearfix">
                         <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
@@ -617,7 +618,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-dit">
-                                        <p><span>2 March, 2020</span></p>
+                                        <p><span>2 March, 2021</span></p>
                                         <h2>NEW RECRUITS HAVE ARRIVED!</h2>
                                         <h5>BY Anindo Ahmed</h5>
                                     </div>
@@ -635,7 +636,7 @@
                                         </div>
                                     </div>
                                     <div class="blog-dit">
-                                        <p><span>4 NOVEMBER, 2021</span></p>
+                                        <p><span>14 May, 2021</span></p>
                                         <h2>BAKING TIPS FROM THE PROS</h2>
                                         <h5>BY Nowrin Rahman</h5>
                                     </div>
@@ -653,9 +654,9 @@
                                         </div>
                                     </div>
                                     <div class="blog-dit">
-                                        <p><span>12 NOVEMBER, 2014</span></p>
+                                        <p><span>12 NOVEMBER, 2021</span></p>
                                         <h2>ALL YOUR EGGS BELONG TO US</h2>
-                                        <h5>BY John Doggett</h5>
+                                        <h5>BY Sohail Khan</h5>
                                     </div>
                                 </div>
                             </div>
@@ -779,7 +780,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                             <h2 class="ft-title color-white text-center"> Newsletter </h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <p> Have any suggestion or review? Write a letter to us and we will reply guranteed.</p>
                         </div>
                         <form>
                             <input type="email" placeholder="Enter your e-mail id">
@@ -805,7 +806,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-a">
                                 <h3>About Us</h3>
-                                <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</p>
+                                <p>Bringing the finest dishes in the most reasonable prices.</p>
                                 <ul class="socials-box footer-socials pull-left">
                                     <li>
                                         <a href="#">
@@ -843,7 +844,7 @@
                                 <h3>New Menu</h3>
                                 <ul>
                                     <li><a href="#">Italian Bomba Sandwich</a></li>
-                                    <li><a href="#">Double Dose of Pork Belly</a></li>
+                                    <li><a href="#">Double Dose of Beef Belly</a></li>
                                     <li><a href="#">Spicy Thai Noodles</a></li>
                                     <li><a href="#">Triple Truffle Trotters</a></li>
                                 </ul>
@@ -856,7 +857,7 @@
                                 <h3>Contact Us</h3>
                                 <p>
                                     <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
+                                    <span>Mars Eatery, House-22, Section-04, Mirpur Dohs, Bangladesh</span>
                                 </p>
                                 <p>
                                     <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -866,7 +867,7 @@
                                 </p>
                                 <p>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="#">support@foodfunday.com</a></span>
+                                    <span><a href="#">support@marseatery.com</a></span>
                                 </p>
                             </div>
                             <!-- end footer-box-c -->

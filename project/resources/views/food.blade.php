@@ -7,7 +7,7 @@
                         <h2 class="block-title text-center">
 						Our Menu 	
 					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                        <p class="title-caption text-center">Want to have a look at what we have to offer? <b>Dive in!</b> From traditional Indian to Continental cuisines, we’ve got you covered! Our main motive is to serve dishes at a price that is not too heavy on the wallet. So, are you ready to feast? </p>
                     </div>
                     <div class="tab-menu">
                         <div class="slider slider-nav">
